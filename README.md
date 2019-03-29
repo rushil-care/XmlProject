@@ -3,3 +3,5 @@
 
 It is a webserver that converts JSON(JavaScript Object Notation) to XML(Extensible Markup Language)
 
+## Deployment
+The project is deployed on heroku sevice: https://graphql-json.herokuapp.com/
