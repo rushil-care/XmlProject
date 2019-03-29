@@ -1,0 +1,22 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "This is XML project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "babel-node src/test.js",
+    "start": "nodemon src/index.js --exec babel-node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rushil",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "graphql-yoga": "^1.17.4",
+    "js2xmlparser": "^4.0.0",
+    "jsontoxml": "^1.0.1",
+    "nodemon": "^1.18.10",
+    "xml-js": "^1.6.11"
+  }
+}
