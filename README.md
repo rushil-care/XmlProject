@@ -5,3 +5,15 @@ It is a webserver that converts JSON(JavaScript Object Notation) to XML(Extensib
 
 ## Deployment
 The project is deployed on heroku sevice: https://graphql-json.herokuapp.com/
+
+## Test Query
+query ($input: String) {
+  me(
+    test: $input
+  )
+}
+
+## Query variable
+{
+  "input": "{'me': {'firstname':'Rushil','lastname':'Gupta'}}"
+}
